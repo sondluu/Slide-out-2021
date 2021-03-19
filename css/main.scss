@@ -1,63 +1,9 @@
-// body {
-//     margin: 0;
-//     height: 100vh;
-//     background: rgb(36,40,49);
-//     color: white;
-//     display: grid;
-//     place-content: center;
-// }
 
-// header {
-//     display: flex;
-
-//     .activator {
-//         padding: 1em;
-//         border-radius: 100%;
-//         cursor: pointer;
-
-//         &:hover {
-//             background: rgb(30,33,41);
-//         }
-//     }
-// }
-
-// img {
-//     width: 100%;
-//     max-width: 45px;
-// }
-
-// nav {
-//     background: rgb(41,46,56);
-//     border-radius: 0 5em 5em 0;
-//     padding: .5em;
-//     clip-path: ellipse (50% 50% at -50% 50%);
-
-//     ul {
-//         display: flex;
-
-//         li a {
-//             display: block;
-//             padding: .5em;
-//             margin: 0 .5em;
-//             border-radius: 50%;
-            
-
-//             &:hover {
-//                 background: rgb(50,56,68);
-//             }
-
-//             img {
-//                 opacity: 0;
-//                 transform: translateX(-10px);
-//             }
-//         }
-//     }
-// }
 
 body {
     margin: 0;
     height: 100vh;
-    background: rgb(36,40,49);
+    background: #132684;
     color: white;
     display: grid;
     place-content: center;
@@ -72,14 +18,14 @@ header {
         cursor: pointer;
         
         &:hover {
-            background: rgb(30,33,41);
+            background: #DB80A5;
         }
     }
 }
 
 img {
     width: 100%;
-    max-width: 35px;
+    max-width: 34px;
 }
 
 ul {
@@ -89,22 +35,22 @@ ul {
 }
 
 nav {
-    background: rgb(41,46,56);
+    background: #FAE2E3;
     border-radius: 0 5em 5em 0;
     padding: .5em;
-    clip-path: ellipse(50% 50% at -50% 50%);
+    clip-path: ellipse(50% 90% at -50% 50%);
 
     ul {
         display: flex;
 
         li a {
             display: block;
-            padding: .5em;
+            padding: .3em; //thickness of the slide-out
             margin: 0 .5em;
             border-radius: 50%;
 
             &:hover {
-                background: rgb(50,56,68);
+                background: #F0D453;
             }
 
             img {

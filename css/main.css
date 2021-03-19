@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
-  background: #242831;
+  background: #132684;
   color: white;
   display: -ms-grid;
   display: grid;
@@ -21,12 +21,12 @@ header .activator {
 }
 
 header .activator:hover {
-  background: #1e2129;
+  background: #DB80A5;
 }
 
 img {
   width: 100%;
-  max-width: 35px;
+  max-width: 34px;
 }
 
 ul {
@@ -36,11 +36,11 @@ ul {
 }
 
 nav {
-  background: #292e38;
+  background: #FAE2E3;
   border-radius: 0 5em 5em 0;
   padding: .5em;
-  -webkit-clip-path: ellipse(50% 50% at -50% 50%);
-          clip-path: ellipse(50% 50% at -50% 50%);
+  -webkit-clip-path: ellipse(50% 90% at -50% 50%);
+          clip-path: ellipse(50% 90% at -50% 50%);
 }
 
 nav ul {
@@ -51,13 +51,13 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: .5em;
+  padding: .3em;
   margin: 0 .5em;
   border-radius: 50%;
 }
 
 nav ul li a:hover {
-  background: #323844;
+  background: #F0D453;
 }
 
 nav ul li a img {
